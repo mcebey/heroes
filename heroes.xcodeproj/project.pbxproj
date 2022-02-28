@@ -27,7 +27,6 @@
 		AC9A281127C9A652005CD1D4 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281027C9A652005CD1D4 /* MainRouter.swift */; };
 		AC9A281427C9A7C3005CD1D4 /* StoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281327C9A7C3005CD1D4 /* StoryboardExtension.swift */; };
 		AC9A281627C9A9E7005CD1D4 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281527C9A9E7005CD1D4 /* CharacterDetailViewController.swift */; };
-		AC9A281827C9B0D6005CD1D4 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281727C9B0D6005CD1D4 /* Update.swift */; };
 		AC9A281A27CB1322005CD1D4 /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281927CB1322005CD1D4 /* CharacterDetailViewModel.swift */; };
 		AC9A281C27CB1425005CD1D4 /* GetCharacterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281B27CB1425005CD1D4 /* GetCharacterInteractor.swift */; };
 		AC9A281E27CBD000005CD1D4 /* OutputMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9A281D27CBD000005CD1D4 /* OutputMock.swift */; };
@@ -75,7 +74,6 @@
 		AC9A281027C9A652005CD1D4 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 		AC9A281327C9A7C3005CD1D4 /* StoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardExtension.swift; sourceTree = "<group>"; };
 		AC9A281527C9A9E7005CD1D4 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
-		AC9A281727C9B0D6005CD1D4 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
 		AC9A281927CB1322005CD1D4 /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
 		AC9A281B27CB1425005CD1D4 /* GetCharacterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharacterInteractor.swift; sourceTree = "<group>"; };
 		AC9A281D27CBD000005CD1D4 /* OutputMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputMock.swift; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 			children = (
 				AC9A280927C99372005CD1D4 /* MD5.swift */,
 				AC9A281327C9A7C3005CD1D4 /* StoryboardExtension.swift */,
-				AC9A281727C9B0D6005CD1D4 /* Update.swift */,
 				AC9A33DA27CC0571005CD1D4 /* Bind.swift */,
 			);
 			path = Utils;
@@ -417,7 +414,6 @@
 			files = (
 				ACF6009227C94C1400C048D8 /* CharacterListViewController.swift in Sources */,
 				AC23009A27C9527D0021EE59 /* DataClassResponse.swift in Sources */,
-				AC9A281827C9B0D6005CD1D4 /* Update.swift in Sources */,
 				AC2300AA27C9550A0021EE59 /* BaseUrlApi.swift in Sources */,
 				ACF6008E27C94C1400C048D8 /* AppDelegate.swift in Sources */,
 				AC9A280F27C9A3B0005CD1D4 /* BaseViewController.swift in Sources */,
