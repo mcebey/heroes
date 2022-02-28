@@ -14,12 +14,7 @@
 		AC23009827C952400021EE59 /* MarvelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23009727C952400021EE59 /* MarvelResponse.swift */; };
 		AC23009A27C9527D0021EE59 /* DataClassResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23009927C9527D0021EE59 /* DataClassResponse.swift */; };
 		AC23009C27C952C50021EE59 /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23009B27C952C50021EE59 /* CharacterResponse.swift */; };
-		AC23009E27C953850021EE59 /* ComicsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23009D27C953850021EE59 /* ComicsResponse.swift */; };
-		AC2300A027C953AE0021EE59 /* ComicItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC23009F27C953AE0021EE59 /* ComicItemResponse.swift */; };
-		AC2300A227C953D60021EE59 /* StoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300A127C953D60021EE59 /* StoriesResponse.swift */; };
-		AC2300A427C9542C0021EE59 /* StoriesItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300A327C9542C0021EE59 /* StoriesItemResponse.swift */; };
 		AC2300A627C9545A0021EE59 /* ThumbnailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300A527C9545A0021EE59 /* ThumbnailResponse.swift */; };
-		AC2300A827C954920021EE59 /* URLElementResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300A727C954920021EE59 /* URLElementResponse.swift */; };
 		AC2300AA27C9550A0021EE59 /* BaseUrlApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300A927C9550A0021EE59 /* BaseUrlApi.swift */; };
 		AC2300AC27C981DD0021EE59 /* MarvelCharactersDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300AB27C981DD0021EE59 /* MarvelCharactersDatasource.swift */; };
 		AC2300AF27C982E30021EE59 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2300AE27C982E30021EE59 /* CharacterModel.swift */; };
@@ -67,12 +62,7 @@
 		AC23009727C952400021EE59 /* MarvelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResponse.swift; sourceTree = "<group>"; };
 		AC23009927C9527D0021EE59 /* DataClassResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataClassResponse.swift; sourceTree = "<group>"; };
 		AC23009B27C952C50021EE59 /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
-		AC23009D27C953850021EE59 /* ComicsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsResponse.swift; sourceTree = "<group>"; };
-		AC23009F27C953AE0021EE59 /* ComicItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicItemResponse.swift; sourceTree = "<group>"; };
-		AC2300A127C953D60021EE59 /* StoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesResponse.swift; sourceTree = "<group>"; };
-		AC2300A327C9542C0021EE59 /* StoriesItemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesItemResponse.swift; sourceTree = "<group>"; };
 		AC2300A527C9545A0021EE59 /* ThumbnailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailResponse.swift; sourceTree = "<group>"; };
-		AC2300A727C954920021EE59 /* URLElementResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLElementResponse.swift; sourceTree = "<group>"; };
 		AC2300A927C9550A0021EE59 /* BaseUrlApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrlApi.swift; sourceTree = "<group>"; };
 		AC2300AB27C981DD0021EE59 /* MarvelCharactersDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelCharactersDatasource.swift; sourceTree = "<group>"; };
 		AC2300AE27C982E30021EE59 /* CharacterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
@@ -135,7 +125,7 @@
 			path = DI;
 			sourceTree = "<group>";
 		};
-		AC23008E27C94F410021EE59 /* Domain */ = {
+		AC23008E27C94F410021EE59 /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				AC2300AD27C982AB0021EE59 /* DatasourceModels */,
@@ -143,7 +133,7 @@
 				AC23009127C94F710021EE59 /* ServiceModels */,
 				AC23008F27C94F550021EE59 /* Service */,
 			);
-			path = Domain;
+			path = Data;
 			sourceTree = "<group>";
 		};
 		AC23008F27C94F550021EE59 /* Service */ = {
@@ -170,12 +160,7 @@
 				AC23009727C952400021EE59 /* MarvelResponse.swift */,
 				AC23009927C9527D0021EE59 /* DataClassResponse.swift */,
 				AC23009B27C952C50021EE59 /* CharacterResponse.swift */,
-				AC23009D27C953850021EE59 /* ComicsResponse.swift */,
-				AC23009F27C953AE0021EE59 /* ComicItemResponse.swift */,
-				AC2300A127C953D60021EE59 /* StoriesResponse.swift */,
-				AC2300A327C9542C0021EE59 /* StoriesItemResponse.swift */,
 				AC2300A527C9545A0021EE59 /* ThumbnailResponse.swift */,
-				AC2300A727C954920021EE59 /* URLElementResponse.swift */,
 			);
 			path = ServiceModels;
 			sourceTree = "<group>";
@@ -267,7 +252,7 @@
 				AC9A280827C9935B005CD1D4 /* Utils */,
 				AC2300B227C9875F0021EE59 /* Models */,
 				AC23009027C94F670021EE59 /* Interactors */,
-				AC23008E27C94F410021EE59 /* Domain */,
+				AC23008E27C94F410021EE59 /* Data */,
 				AC23008927C94F050021EE59 /* DI */,
 				ACF600BE27C94CF800C048D8 /* UI */,
 				ACF600BD27C94CEC00C048D8 /* Config */,
@@ -433,7 +418,6 @@
 				ACF6009227C94C1400C048D8 /* CharacterListViewController.swift in Sources */,
 				AC23009A27C9527D0021EE59 /* DataClassResponse.swift in Sources */,
 				AC9A281827C9B0D6005CD1D4 /* Update.swift in Sources */,
-				AC2300A027C953AE0021EE59 /* ComicItemResponse.swift in Sources */,
 				AC2300AA27C9550A0021EE59 /* BaseUrlApi.swift in Sources */,
 				ACF6008E27C94C1400C048D8 /* AppDelegate.swift in Sources */,
 				AC9A280F27C9A3B0005CD1D4 /* BaseViewController.swift in Sources */,
@@ -450,16 +434,12 @@
 				AC9A280727C98B48005CD1D4 /* CharacterListViewModel.swift in Sources */,
 				AC23008B27C94F190021EE59 /* DIResolver.swift in Sources */,
 				AC9A281127C9A652005CD1D4 /* MainRouter.swift in Sources */,
-				AC2300A827C954920021EE59 /* URLElementResponse.swift in Sources */,
-				AC2300A227C953D60021EE59 /* StoriesResponse.swift in Sources */,
 				AC9A281C27CB1425005CD1D4 /* GetCharacterInteractor.swift in Sources */,
 				AC2300A627C9545A0021EE59 /* ThumbnailResponse.swift in Sources */,
 				AC23009827C952400021EE59 /* MarvelResponse.swift in Sources */,
-				AC23009E27C953850021EE59 /* ComicsResponse.swift in Sources */,
 				AC2300AC27C981DD0021EE59 /* MarvelCharactersDatasource.swift in Sources */,
 				AC9A281427C9A7C3005CD1D4 /* StoryboardExtension.swift in Sources */,
 				AC2300AF27C982E30021EE59 /* CharacterModel.swift in Sources */,
-				AC2300A427C9542C0021EE59 /* StoriesItemResponse.swift in Sources */,
 				ACF6009027C94C1400C048D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

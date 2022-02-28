@@ -11,7 +11,7 @@ El directorio de carpetas contiene lo siguiente:
  - Utils: Clases de utilidad general dentro del proyecto
  - Models: Los modelos que usarán la vistas
  - Interactors: Los casos de uso
- - Domain : Contenedor de la capa del dominio
+ - Data :
     - DataSourceModels : Son los modelos que exponen los datasource
     - DataSource: capa de acceso a los datos que abstrae del lugar donde se encuentran
     - ServiceModels: Los modelos del servicio, en este caso un api

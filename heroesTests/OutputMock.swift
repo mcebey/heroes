@@ -37,10 +37,11 @@ class MarvelApiServiceProtocolMock: MarvelApiServiceProtocol {
 
 class CharacterListViewModelProtocolMock: CharacterListViewModelProtocol {
     init() { }
-    init(list: [Character] = [Character](), refresh: @escaping () -> Void, isLoading: @escaping (Bool) -> Void) {
+    init(list: [Character] = [Character](), refresh: Binding<Bool>, isLoading: Binding<Bool>, error: Binding<String?>) {
         self.list = list
         self._refresh = refresh
         self._isLoading = isLoading
+        self._error = error
     }
 
 
@@ -48,17 +49,24 @@ class CharacterListViewModelProtocolMock: CharacterListViewModelProtocol {
     var list: [Character] = [Character]() { didSet { listSetCallCount += 1 } }
 
     private(set) var refreshSetCallCount = 0
-    private var _refresh: (() -> Void)!  { didSet { refreshSetCallCount += 1 } }
-    var refresh: () -> Void {
+    private var _refresh: Binding<Bool>!  { didSet { refreshSetCallCount += 1 } }
+    var refresh: Binding<Bool> {
         get { return _refresh }
         set { _refresh = newValue }
     }
 
     private(set) var isLoadingSetCallCount = 0
-    private var _isLoading: ((Bool) -> Void)!  { didSet { isLoadingSetCallCount += 1 } }
-    var isLoading: (Bool) -> Void {
+    private var _isLoading: Binding<Bool>!  { didSet { isLoadingSetCallCount += 1 } }
+    var isLoading: Binding<Bool> {
         get { return _isLoading }
         set { _isLoading = newValue }
+    }
+
+    private(set) var errorSetCallCount = 0
+    private var _error: Binding<String?>!  { didSet { errorSetCallCount += 1 } }
+    var error: Binding<String?> {
+        get { return _error }
+        set { _error = newValue }
     }
 
     private(set) var sendCallCount = 0

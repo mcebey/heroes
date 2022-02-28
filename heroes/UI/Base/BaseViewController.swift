@@ -13,12 +13,6 @@ class BaseViewController: UIViewController, StoryboardProtocol {
     private let activityView = UIActivityIndicatorView(style: .large)
     var router: MainRouter?
 
-//    init() {
-//        if let navctl = self.navigationController {
-//            router = MainRouter(navigationController: navctl)
-//        }
-//    }
-
     func showError(msg: String) {
         let alert = UIAlertController(title: "ERROR", message: msg, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in }))

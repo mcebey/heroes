@@ -7,14 +7,6 @@
 
 import Foundation
 
-//struct DataClassResponse: Codable {
-//    let offset: Int
-//    let limit: Int
-//    let total: Int
-//    let count: Int
-//    let results: [CharacterResponse]
-//}
-
 struct DataClassResponse<T: Codable>: Codable {
     let offset: Int
     let limit: Int

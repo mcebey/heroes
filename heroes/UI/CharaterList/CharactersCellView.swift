@@ -10,7 +10,4 @@ import UIKit
 
 class CharactersCellView: UITableViewCell {
     @IBOutlet weak var name: UILabel!
-
-    @IBOutlet weak var heroeImage: UIImageView!
-
 }
