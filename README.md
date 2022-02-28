@@ -40,7 +40,7 @@ El directorio de carpetas contiene lo siguiente:
 
  - Si el numero de pantallas creciese, sería bueno usar un router por cada una de las páginas, pero en este caso es tan sencillo que no aplica. 
  
- - La parte del dominio se podría separar en una libreria perfectamente sin apenas verse afectada la aplicación. 
+ - La parte de data se podría separar en una libreria perfectamente sin apenas verse afectada la aplicación. 
  
  - Con MVVM si nos cambiasemos a SwiftUI podríamos hacer de una forma fácil compatible casi todo el código usado
  
